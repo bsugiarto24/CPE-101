@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "checkit.h"
+#include "line.h"
+void test_cases(void)
+{
+
+ line2d line2d = create_line2d(1,2,3,4);
+  
+}
+
+int main(int argc, char **argv)
+{
+   test_cases();
+
+   return 0;
+}

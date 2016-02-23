@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "line.h"
+
+struct line2d create_line2d(double x1, double x2, double y1, double y2){
+   struct line2d
+   line2d.x1 = x1;
+   line2d.x2 = x2;
+   line2d.y1 = y1;
+   line2d.y2 = y2;
+   return line2d;
+}
+
+
